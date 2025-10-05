@@ -1,0 +1,23 @@
+{
+  "name": "heartua-bot",
+  "version": "1.0.0",
+  "description": "HeartUA Telegram Bot з адмін-панеллю",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "bot": "node index.js",
+    "start-new": "node index-new.js",
+    "setup": "node setup.js",
+    "migrate": "node migrate-database.js",
+    "test-premium": "node test-premium-features.js"
+  },
+  "keywords": ["telegram", "bot", "heartua"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gramjs": "^2.20.0",
+    "sqlite3": "^5.1.7",
+    "node-cron": "^3.0.3",
+    "big-integer": "^1.6.51"
+  }
+}
